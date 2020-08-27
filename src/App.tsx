@@ -4,7 +4,7 @@ import header from './container/Header';
 import './App.css';
 import Error404 from './container/Error404';
 import Login from './pages/Login';
-import styled, { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from 'styled-components';
 // import Signup from './pages/Signup';
 
 const App = () => {

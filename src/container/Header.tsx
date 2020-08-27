@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Button, Alignment } from '@blueprintjs/core';
+import { Navbar } from '@blueprintjs/core';
 import styled from 'styled-components';
 
 const Header = () => {
