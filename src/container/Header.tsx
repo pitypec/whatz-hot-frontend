@@ -1,15 +1,23 @@
 import React from 'react';
-import { Card, Button, Elevation, H1 } from '@blueprintjs/core';
+import { Navbar, Button, Alignment } from '@blueprintjs/core';
+import styled from 'styled-components';
 
 const Header = () => {
   return (
-    <div className='App'>
-      <Card interactive={true} elevation={Elevation.TWO}>
-        <H1>Welcome to Whatz-hot</H1>
-        <Button>Welcome to Whatz-hot</Button>
-      </Card>
-    </div>
+    <Navbar>
+      <Navbar.Group>
+        <Wrapper>
+          <Navbar.Heading>Whatz-hot</Navbar.Heading>
+        </Wrapper>
+      </Navbar.Group>
+    </Navbar>
   );
 };
+
+const Wrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+`;
 
 export default Header;
