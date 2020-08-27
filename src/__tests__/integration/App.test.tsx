@@ -21,6 +21,6 @@ describe('The App', () => {
   test('renders Home page', () => {
     const { container } = setupApp();
 
-    expect(container.innerHTML).toMatch(/Welcome to whatz-hot/i);
+    expect(container.innerHTML).toMatch(/Whatz-hot/i);
   });
 });
